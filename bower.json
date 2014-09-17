@@ -1,0 +1,12 @@
+{
+  "name": "relativeDates",
+  "version": "0.0.0",
+  "main": "dist/relativeDates.min.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test"
+  ],
+  "dependencies": {}
+}
