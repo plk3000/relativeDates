@@ -126,7 +126,7 @@ var relativeDates =
       
       years = date2.getFullYear() - (date1.getFullYear() + increment);
       
-      return years+"y"+months+"M"+days+"D";
+      return years+"Y"+months+"M"+days+"D";
     }
   };
 
