@@ -26,8 +26,10 @@
     <script>
       /* begin demo script */
 
-      var n = relativeDates(new Date(2013,9,17), new Date());
+      var n = relativeDates.friendlyString(new Date(2013,9,17), new Date());
+      var m = relativeDates.xmlString(new Date(2013,9,17), new Date());
       alert(n);
+      alert(m);
       console.log(n);
 
       /* end demo script */
