@@ -131,7 +131,13 @@ var relativeDates =
       
       years = date2.getFullYear() - (date1.getFullYear() + increment);
       
-      return years+"y"+months+"M"+days+"D";
+      var returnString = "";
+      
+      if (years > 0) { returnString += years+'Y'; }
+      if (months > 0) { returnString += months + 'M'; }
+      if (days > 0) { returnString += days + 'D'; }
+      
+      return returnString;
     }
   };
 
